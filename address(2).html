@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body {
+  padding: 2em;
+}
+select {
+  padding: 0.3em 0.5em;
+}
+</style>
+</head>
+<body>
+
+<h3>地址：</h3>
+<p>縣市：
+  <select id="city">
+    <option valule="">--------</option>
+    <option valule="台北市">台北市</option>
+    <option valule="新北市">新北市</option>
+    <option valule="桃園市">桃園市</option>
+    <option valule="台中市">台中市</option>
+    <option valule="台南市">台南市</option>
+    <option valule="高雄市">高雄市</option>
+  </select>
+&nbsp;
+區域：
+  <select id="district">
+    <option valule="">--------</option>
+  </select>
+&nbsp;&nbsp;<input type="text" name=address>
+</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/address.js"></script>  
+</body>
+</html>

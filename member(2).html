@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body {
+  padding: 2em;
+}
+table {
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: lightblue;
+}
+th, td {
+  padding: 0.8em 1.5em;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+input[type=checkbox] {
+  transform: scale(1.4);
+}
+</style>
+</head>
+<body>
+
+<h3>會員名冊：</h3>
+<table>
+  <tr>
+    <th><input type="checkbox" name="mainChoose"></th>
+    <th>姓名</th>
+    <th>性別</th>
+    <th>電話</th>
+    <th>電郵</th>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="choose"></td>
+    <td>張三</td>
+    <td>男</td>
+    <td>0910-111111</td>
+    <td>aaa@example.com</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="choose"></td>
+    <td>李四</td>
+    <td>女</td>
+    <td>0910-222222</td>
+    <td>bbb@example.com</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="choose"></td>
+    <td>王五</td>
+    <td>男</td>
+    <td>0910-333333</td>
+    <td>ccc@example.com</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="choose"></td>
+    <td>趙六</td>
+    <td>女</td>
+    <td>0910-444444</td>
+    <td>ddd@example.com</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="choose"></td>
+    <td>錢七</td>
+    <td>男</td>
+    <td>0910-555555</td>
+    <td>eee@example.com</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="choose"></td>
+    <td>孫八</td>
+    <td>女</td>
+    <td>0910-666666</td>
+    <td>fff@example.com</td>
+  </tr>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/member.js"></script>  
+</body>
+</html>
